@@ -27,6 +27,7 @@ namespace ET
 				.WithParsed((o)=>World.Instance.AddSingleton(o));
 			Options.Instance.StartConfig = $"StartConfig/Localhost";
 			
+			// 初始化一些全局管理器
 			World.Instance.AddSingleton<Logger>().Log = new UnityLogger();
 			ETTask.ExceptionHandler += Log.Error;
 			

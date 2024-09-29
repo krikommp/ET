@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace ET
 {
+    /// <summary>
+    /// 全局单例管理器
+    /// 所有需要当作单例的对象都会被这个单例类管理
+    /// </summary>
     public class World: IDisposable
     {
         [StaticField]
