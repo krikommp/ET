@@ -1,0 +1,210 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="k5WLLO010ibckkGUuMc9">
+    <mxGraphModel dx="3080" dy="3913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-1" target="voECgLSMZ_vUqSFHg3TP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-1" value="ET.Init&lt;div&gt;Game 入口&lt;/div&gt;&lt;div&gt;MonoBehaviour 放置在世界中, 用于触发初始化操作&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="280" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="205" width="50" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-5" value="ET.World&lt;div&gt;单例管理器, 所有的单例对象都被注册&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-6" value="TimeInfo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-7" value="FiberManager&lt;div&gt;线程管理器, 由 Init 触发 update, FixedUpdate 事件&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-8" value="CodeLoader&lt;div&gt;代码热更&lt;/div&gt;&lt;div&gt;同时会调用 Entry 作为逻辑入口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="470" width="736" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-10" target="voECgLSMZ_vUqSFHg3TP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-10" value="ET.Entry&lt;div&gt;由 CodeLoader 反射调用&lt;/div&gt;&lt;div&gt;可以被热更&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="1022.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="2765" y="765" width="50" height="575" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-13" value="MongoRegister.Init&lt;div&gt;Mongo 类型初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-14" value="EntitySerializeRegister.Init&lt;div&gt;注册 Entity 序列化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2797.5" y="810" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-15" value="这里使用了 SourceGenerator 代码生成, 待查看是什么逻辑&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="825" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-16" value="IdGenerater&lt;div&gt;用于为 Entity 根据当前时间生成独特的 id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-17" value="OpcodeType" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-18" value="ObjectPool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-19" value="MessageQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-20" value="NetServices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-21" value="NavmeshComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-22" value="LogMsg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-23" target="voECgLSMZ_vUqSFHg3TP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-23" target="voECgLSMZ_vUqSFHg3TP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-23" value="CodeTypes.Instance.CreateCode" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="1590" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-25" value="获取所有类型&lt;div&gt;找到打了 [Code] 标记的类, 这个类需要继承 Singleton 接口&amp;nbsp;&lt;/div&gt;&lt;div&gt;创建这个类, 并加入到 World 里面&lt;/div&gt;&lt;div&gt;调用每个类的 Awake 函数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="1565" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="3170" y="1220" width="50" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-28" value="EntitySystemSingleton" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-29" value="UIEventComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1937" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-31" value="MessageDispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-32" target="voECgLSMZ_vUqSFHg3TP-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-32" value="EventSystem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-36" value="HttpDispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-37" value="Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-40" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3285" y="1910" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-41" value="LSEntitySystemSingleton" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-42" value="Shared" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-43" value="AIDispatcherComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-44" value="ConsoleDispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-45" value="MessageSessionDispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-46" value="NumericWatcherComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-48" target="voECgLSMZ_vUqSFHg3TP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-48" value="ConfigLoader&lt;div&gt;同步加载所有&lt;/div&gt;&lt;div&gt;[Config]&lt;/div&gt;&lt;div&gt;的数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-50" value="注册事件, Awake&lt;div&gt;将所有 [Event], 或 [Invoke] 的事件注册到 allInvokers 字典中&lt;/div&gt;&lt;div&gt;对于 Event 有 SceneType 指定事件的场景&lt;/div&gt;&lt;div&gt;对于 Invoke 有 type 指定 invoke 类型&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="1345" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-52" value="Core" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3285" y="1190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-53" target="voECgLSMZ_vUqSFHg3TP-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-53" value="&lt;div&gt;由 EventSystem 在上一步完成了事件注册&lt;/div&gt;找到所有类型为 SceneType.Main 的 invoke 事件&lt;div&gt;调用&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="1870" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-55" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="1830" width="912" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-56" target="voECgLSMZ_vUqSFHg3TP-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-56" value="当前项目中有且仅有&lt;div&gt;FiberInit_Main&amp;nbsp;&lt;/div&gt;&lt;div&gt;[Invoke(long)SceneType.Main]&lt;/div&gt;&lt;div&gt;作为调用入口&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="2120" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-58" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="3810" y="1330" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-59" value="对于需要标记为 [Event] 的类型&lt;div&gt;需要继承 AEvent 虚基类&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="1310" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-60" value="在 EventSystem 中会将&lt;div&gt;AEvent 的第二个模板类型作为 key&lt;/div&gt;&lt;div&gt;存入字典中&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="1380" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-61" target="voECgLSMZ_vUqSFHg3TP-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3065" y="2280" />
+              <mxPoint x="3065" y="2280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-61" target="voECgLSMZ_vUqSFHg3TP-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-61" target="voECgLSMZ_vUqSFHg3TP-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-61" value="查找 EventSystem 中&lt;div&gt;EntryEvent1&lt;/div&gt;&lt;div&gt;EntryEvent2&lt;/div&gt;&lt;div&gt;EntryEvent3&lt;/div&gt;&lt;div&gt;发送事件&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2990" y="2100" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-63" value="EnetryEvent2_InitServer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3005" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-65" value="EntryEvent1_InitShare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voECgLSMZ_vUqSFHg3TP-66" target="voECgLSMZ_vUqSFHg3TP-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-66" value="EntryEvent3_InitClient" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-69" value="都是在主线程中跑下面的逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="1880" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-70" value="进入正式游戏环境" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-72" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="-10" width="1900" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-74" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;程序入口流程分析&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="70" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="voECgLSMZ_vUqSFHg3TP-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4740" y="-550" width="2500" height="3460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

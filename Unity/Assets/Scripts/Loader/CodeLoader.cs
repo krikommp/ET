@@ -7,6 +7,10 @@ using UnityEngine;
 
 namespace ET
 {
+    /// <summary>
+    /// 用于支持打包后代码热更新
+    /// TODO... 待阅读
+    /// </summary>
     public class CodeLoader: Singleton<CodeLoader>, ISingletonAwake
     {
         private Assembly modelAssembly;
@@ -97,6 +101,8 @@ namespace ET
                 hotfixViewAssembly
             });
 
+            // 调用程序集中 ET.Entry 的 Start 方法
+            // 反射
             IStaticMethod start = new StaticMethod(this.modelAssembly, "ET.Entry", "Start");
             start.Run();
         }

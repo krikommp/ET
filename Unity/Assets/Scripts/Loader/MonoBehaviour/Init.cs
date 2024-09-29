@@ -36,6 +36,8 @@ namespace ET
 
 			await World.Instance.AddSingleton<ResourcesComponent>().CreatePackageAsync("DefaultPackage", true);
 			
+			// 热更新相关的程序集加载逻辑
+			// 使用了 HybridCLR
 			CodeLoader codeLoader = World.Instance.AddSingleton<CodeLoader>();
 			await codeLoader.DownloadAsync();
 			
